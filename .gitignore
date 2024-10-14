@@ -1,0 +1,63 @@
+# Xcode
+build/
+DerivedData/
+*.xcworkspace
+!default.xcworkspace
+
+# CocoaPods
+Pods/
+Podfile.lock
+.project
+.workspace
+
+# Swift Package Manager
+/.build
+/Packages
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm
+*.xcodeproj/xcuserdata
+
+# Carthage
+Carthage/Build/
+
+# Accio dependency management
+/.accio/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Code Coverage
+*.xccovreport
+*.xccovarchive
+
+# IDE specific
+*.idea/
+*.swp
+*.xcuserstate
+*.xcuserdata
+*.moved-aside
+
+# Mac System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+__MACOSX/
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# User settings
+xcuserdata/
